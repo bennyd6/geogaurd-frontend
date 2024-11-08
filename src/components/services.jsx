@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './services.css'
-import { Fade,Slide } from 'react-awesome-reveal';
+import { Slide } from 'react-awesome-reveal';
 function Services() {
     return(
       <>

@@ -22,12 +22,12 @@ export default function Home() {
                     </div>
                 )}
             </div>
-            <div class="store">
-                <div class="ps">
+            <div className="store">
+                <div className="ps">
                     <img src={ps} alt=""/>
                     <h2>Get the app from<br/> Play Store</h2>
                 </div>
-                <div class="as">
+                <div className="as">
                     <img src={as} alt=""/>
                     <h2>Get the app from<br/> AppStore</h2>
                 </div>

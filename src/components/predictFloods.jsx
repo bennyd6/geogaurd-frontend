@@ -1,5 +1,4 @@
 import './predictFloods.css';
-import { Slide } from 'react-awesome-reveal';
 import Alert from '../assets/alert.png';
 import { Link } from 'react-router-dom';
 
