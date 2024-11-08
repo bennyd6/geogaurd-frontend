@@ -1,10 +1,15 @@
 {
-    "builds": [
-      {
-        "src": "frontend/package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "buildCommand": "npm ci && npm run build"
-  }
-  
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "buildCommand": "npm ci && npm run build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
