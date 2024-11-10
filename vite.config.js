@@ -10,6 +10,7 @@ export default defineConfig({
     rollupOptions: {
       // Avoid bundling React and ReactDOM if they are provided externally (e.g., via CDN)
       // external: ['react', 'react-dom'],
+      // external: ['react-awesome-reveal'],
     },
   },
   css: {
@@ -25,7 +26,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['axios'],  // Pre-bundle axios or other dependencies if needed
+    include: ['axios','react-awesome-reveal'],  // Pre-bundle axios or other dependencies if needed
   },
   define: {
     // Example of injecting environment variables if needed
